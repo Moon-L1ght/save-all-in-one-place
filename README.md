@@ -46,7 +46,7 @@ save-all-in-one-place/
 ### Установка
 
 ```bash
-git clone https://github.com/your-username/save-all-in-one-place.git
+git clone https://github.com/Moon-L1ght/save-all-in-one-place.git
 cd save-all-in-one-place
 npm install          # установит зависимости всех пакетов
 ```
