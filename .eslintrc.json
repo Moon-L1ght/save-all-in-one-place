@@ -37,7 +37,7 @@
         "project": [
           "./backend/tsconfig.json",
           "./frontend/tsconfig.json",
-          "./extensions/tsconfig.json"
+          "./extension/tsconfig.json"
         ]
       }
     },

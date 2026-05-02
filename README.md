@@ -17,8 +17,8 @@
 
 ```
 save-all-in-one-place/
-├── server/        # Бэкенд (Node.js, Fastify, Prisma, PostgreSQL, Redis)
-├── web/           # Веб-приложение (React, Vite, Mantine UI)
+├── backend/        # Бэкенд (Node.js, Fastify, Prisma, PostgreSQL, Redis)
+├── frontend/           # Веб-приложение (React, Vite, Mantine UI)
 ├── extension/     # Браузерное расширение (React, Vite, CRXJS)
 ├── docker-compose.yml  # Локальная инфраструктура (Postgres, Redis)
 └── .github/       # CI/CD (GitHub Actions)
@@ -66,8 +66,8 @@ npm install          # установит зависимости всех пак
 ### Запуск в режиме разработки
 
 ```bash
-npm run dev:server     # Бэкенд на http://localhost:3001
-npm run dev:web        # Веб-приложение на http://localhost:5173
+npm run dev:backend     # Бэкенд на http://localhost:3001
+npm run dev:frontend        # Веб-приложение на http://localhost:5173
 npm run dev:extension  # Сборка расширения (папка extension/dist)
 ```
 
@@ -76,8 +76,8 @@ npm run dev:extension  # Сборка расширения (папка extension
 ### Сборка для продакшена
 
 ```bash
-npm run build -w server
-npm run build -w web
+npm run build -w backend
+npm run build -w frontend
 npm run build -w extension
 ```
 
